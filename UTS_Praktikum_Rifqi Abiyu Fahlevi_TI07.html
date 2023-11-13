@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS_Praktikum</title>
+</head>
+<body style="background-color: whitesmoke;">
+    <h1>UTS_PRAKTIKUM PEMROGRAMAN WEB 1</h1>
+    <fieldset style="margin: auto;">
+        <legend>Booking Service</legend>
+        <div>
+            <form action="" method="POST" style="margin-left: 50px;">
+                <table>
+                    <tr>
+                        <td>Jenis Kendaraan :</td>
+                        <td>
+                            <select>
+                                <option value="Bola">Minibus</option>
+                                <option value="Basket">Mobil</option>
+                                <option value="Voly">Sepeda Motor</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nama Pemesan :</td>
+                        <td ><input type="text" name="name" placeholder="Enter Name"></td>
+                    </tr>
+                     <tr>
+                        <td>Kategori Peminjam :</td>
+                        <td>
+                            <input type="radio" name="permit" value="Pribadi">Pribadi
+                            <input type="radio" name="permit" value="">Perusahaan/Organisasi
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Deskripsi Kebutuhan :</td>
+                        <td><textarea name="description" placeholder="enter description here" cols="80" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Jam, Tanggal Service :</td>
+                        <td><input type="datetime-local" name="datetime-local"></td>
+                    </tr>  
+                    <tr>
+                        <td>Request Montir :</td>
+                        <td><input type="text" name="name" placeholder="Enter Name Here"></td>
+                    </tr>  
+                    <tr>
+                        <td>Telpon/HP :</td>
+                        <td><input type="text" name="number" placeholder="Enter Number Here"></td>
+                    </tr>  
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="email" name="email" placeholder="Enter Email Here"></td>
+                    </tr>  
+                    <tr>
+                        <td><input type="submit" name="proses" value="Submit" style="box-shadow: 4px 3px 2px black; color:white; background-color: blue;"></td>
+                        <td><input type="reset" name="unproses" value="Reset" style="box-shadow: 4px 3px 2px black; color:white; background-color: red;"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </fieldset>
+</body>
+</html>
